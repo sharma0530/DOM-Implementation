@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Implementation</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2 id="Greeting">Hello</h2>
+    </div>
+    <div class="container" id="container">
+        <div class="box" id="box1" onclick="changeColor('red', 'box1')">Red</div>
+        <div class="box" id="box2" onclick="changeColor('blue', 'box2')">Blue</div>
+        <div class="box" id="box3" onclick="changeColor('green', 'box3')">Green</div>
+        <div class="box" id="box4" onclick="changeColor('yellow', 'box4')">Yellow</div>
+    </div>
+    <div class="Input">
+        <input type="text" id="inputText" placeholder="Enter your Name">
+        <button id="addButton">Greet</button>
+    </div>
+</body>
+<script src="Index.js"></script>
+</html>

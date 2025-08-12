@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.navbar{
+    background-color: rgb(236, 236, 236);;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #f0f0f0;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Color classes for dynamic styling
+.red-bg {
+    background-color: red;
+    color: white;
+}
+
+.blue-bg {
+    background-color: blue;
+    color: white;
+}
+
+.green-bg {
+    background-color: green;
+    color: white;
+}
+
+.yellow-bg {
+    background-color: yellow;
+    color: black;
+} */
+
+.Input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
